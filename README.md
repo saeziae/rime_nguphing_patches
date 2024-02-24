@@ -25,7 +25,7 @@ curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | rim
 
 ``` bash
 curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | bash -s -- saeziae/rime_nguphing_patches@romazy:install
-``
+```
 
 Fcitx5:
 
