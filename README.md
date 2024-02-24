@@ -2,6 +2,8 @@
 
 ## 粵語反查
 
+按 R 後輸入粵語拼音反查
+
 ``` bash
 curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | bash -s -- cantonese saeziae/rime_nguphing_patches@jyutping_reverse:install
 ```
