@@ -11,3 +11,7 @@ Fcitx5:
 Fcitx:
 
 `curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | rime_frontend=fcitx-rime bash -s -- saeziae/rime_nguphing_patches/jyutping-reverse-packages.conf`
+
+## 羅馬字輸出
+
+`curl -fsSL https://raw.githubusercontent.com/rime/plum/master/rime-install | bash -s -- saeziae/rime_nguphing_patches@romazy`
