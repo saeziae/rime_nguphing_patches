@@ -1,0 +1,8 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: install
+install_files: >-
+   nguphing-romazy.schema.yaml
+   rime.lua
+   lua/romanization_input.lua
