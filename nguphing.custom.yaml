@@ -1,0 +1,20 @@
+# 吳語拼音粵語反查
+# @author: saeziae
+# 撳 R 進反查
+patch:
+  "engine/segmentors/@after 1": affix_segmentor@jyutping
+  "engine/translators/@after last": script_translator@jyutping
+  jyutping:
+    tag: jyutping
+    dictionary: jyut6ping3
+    prefix: "r"
+    tips: 〔粵拼〕
+    preedit_format:
+      - xform/([aeiouymngptk])vv/${1}4/
+      - xform/([aeiouymngptk])xx/${1}5/
+      - xform/([aeiouymngptk])qq/${1}6/
+      - xform/([aeiouymngptk])v/${1}1/
+      - xform/([aeiouymngptk])x/${1}2/
+      - xform/([aeiouymngptk])q/${1}3/
+  "nguphing_reverse_lookup/tags/@next": jyutping
+  "recognizer/patterns/jyutping": "^r[a-z']*$"
